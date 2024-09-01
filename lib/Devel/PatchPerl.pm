@@ -12,8 +12,8 @@ use MIME::Base64 qw[decode_base64];
 use Module::Pluggable search_path => ['Devel::PatchPerl::Plugin'];
 use vars qw[@ISA @EXPORT_OK];
 
-use constant CERTIFIED => 5.033005; # Anything less than this
-use constant HINTSCERT => 5.039006; # Hints certified to this
+use constant CERTIFIED => 5.041003; # Anything less than this
+use constant HINTSCERT => 5.041003; # Hints certified to this
 
 @ISA       = qw(Exporter);
 @EXPORT_OK = qw(patch_source);
